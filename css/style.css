@@ -1,0 +1,27 @@
+/* ---------- CSS Général ---------- */
+
+/* ---------- CSS Header ---------- */
+.header {
+    display: flex;
+    align-items: center;
+}
+.header__photo-profil {
+    height: 100px;
+    width: 100px;
+}
+
+/* ---------- CSS Main ---------- */
+
+.main {
+    display: flex;
+}
+
+.main>.container--left {
+    max-width: 25%;
+}
+
+.main>.container--right {
+    max-width: 75%;
+}
+
+/* ---------- CSS Footer ---------- */
